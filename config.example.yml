@@ -1,0 +1,18 @@
+file:
+  name: file.txt
+sender:
+  email: Sender@mail.com
+  password: your_password
+  smtp_port: '587'
+  smtp_server: your_server
+email_content:
+  subject: Content change reminder
+recipients:
+- name: Recipient 1
+  email:
+  - recipient1@example.com
+- name: Recipient 2
+  email:
+  - recipient2@example.com
+system_set:
+  log_switch: 'on'
